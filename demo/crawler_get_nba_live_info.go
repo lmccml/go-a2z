@@ -1,19 +1,23 @@
 package demo
 
 import (
-	"fmt"
-	"time"
-	"net/http"
 	"crypto/tls"
+	"fmt"
 	"github.com/PuerkitoBio/goquery"
+	"net/http"
+	"time"
 )
+
+func init() {
+	fmt.Println("this is a init processing!")
+}
 
 //爬虫小栗子
 func Get_nba_live_info() {
 	for {
 		select {
-		case <- time.After(time.Second * 1):
-			tr := &http.Transport{TLSClientConfig: &tls.Config{InsecureSkipVerify: true},}
+		case <-time.After(time.Second * 1):
+			tr := &http.Transport{TLSClientConfig: &tls.Config{InsecureSkipVerify: true}}
 			client := &http.Client{Transport: tr}
 			//访问虎扑
 			req, _ := http.NewRequest("GET", "https://nba.hupu.com/games/playbyplay/157018", nil)
