@@ -17,5 +17,13 @@ func main() {
 	fmt.Println("go run main.go parameter----打印命令行参数(空格分开):" + os.Args[0])
 	//获取go小技巧
 	demo.Go_tips()
+	//iota的妙用
+	demo.Iota_to_use()
+	//rune和byte表示字符串
+	demo.Rune_to_use()
+	//快速替换变量
+	demo.Replace_magic()
+	//指针示例
+	demo.Point_demo()
 
 }
