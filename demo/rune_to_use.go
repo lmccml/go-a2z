@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+//内建类型rune解析
 func Rune_to_use() {
 	//byte类型的底层类型是int8类型
 	str := "hello 中国"

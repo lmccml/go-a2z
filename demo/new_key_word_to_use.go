@@ -1,6 +1,8 @@
 package demo
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //内建关键字new的使用
 func New_key_word_to_use() {

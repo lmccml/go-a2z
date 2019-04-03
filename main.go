@@ -25,5 +25,7 @@ func main() {
 	demo.Replace_magic()
 	//指针示例
 	demo.Point_demo()
+	//逗号的妙用
+	demo.Comma_magic()
 
 }

@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+//关于go的一些小提示
 func Go_tips() {
 	a := make([]string, 1000)
 	a[1] = "可以i++,不能--i!"

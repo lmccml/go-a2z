@@ -5,6 +5,7 @@ import (
 	"strconv"
 )
 
+//iota内建常量的妙用
 func Iota_to_use() {
 	const (
 		one = iota + 1

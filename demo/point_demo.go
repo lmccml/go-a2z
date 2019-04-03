@@ -2,6 +2,7 @@ package demo
 
 import "fmt"
 
+//指针示例
 func Point_demo() {
 	x := 1
 	p := &x         // p, of type *int, points to x
