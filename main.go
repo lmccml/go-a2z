@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-test/demo"
+	"go-a2z/demo"
 	"os"
 )
 
